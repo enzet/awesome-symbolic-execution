@@ -15,14 +15,14 @@
 
 Fundamental papers:
 
-* 1975. [SELECT—a formal system for testing and debugging programs by symbolic execution](https://doi.org/10.1145/390016.808445), R. S. Boyer, B. Elspas, K. N. Levitt.
-* 1976. [Symbolic Execution and Program Testing](https://doi.org/10.1145/360248.360252), James C. King.
-* 1976. [A System to Generate Test Data and Symbolically Execute Programs](https://doi.org/10.1109/TSE.1976.233817), L. A. Clarke.
+* [SELECT—a formal system for testing and debugging programs by symbolic execution](https://doi.org/10.1145/390016.808445), R. S. Boyer, B. Elspas, K. N. Levitt. 1975.
+* [Symbolic Execution and Program Testing](https://doi.org/10.1145/360248.360252), James C. King. 1976.
+* [A System to Generate Test Data and Symbolically Execute Programs](https://doi.org/10.1109/TSE.1976.233817), L. A. Clarke. 1976.
 
 Symbolic execution survey:
 
-* 2010. [All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask)](https://doi.org/10.1109/SP.2010.26), Edward J. Schwartz, Thanassis Avgerinos, David Brumley.
-* 2017. [A Survey of Symbolic Execution Techniques](https://arxiv.org/pdf/1610.00502.pdf), Roberto Baldoni, Emilio Coppa, Daniele Cono D’Elia, Camil Demetrescu, and Irene Finocchi.
+* [All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask)](https://doi.org/10.1109/SP.2010.26), Edward J. Schwartz, Thanassis Avgerinos, David Brumley. 2010.
+* [A Survey of Symbolic Execution Techniques](https://arxiv.org/pdf/1610.00502.pdf), Roberto Baldoni, Emilio Coppa, Daniele Cono D’Elia, Camil Demetrescu, and Irene Finocchi. 2016—2017.
 
 
 ## Courses
