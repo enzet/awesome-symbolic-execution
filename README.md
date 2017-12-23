@@ -69,6 +69,7 @@ Symbolic execution survey:
 ### C
 
 * [CREST](https://github.com/jburnim/crest).
+* [DART](https://doi.org/10.1145/1064978.1065036). 
 * [Otter](https://bitbucket.org/khooyp/otter/).
 * [CIVL](http://vsl.cis.udel.edu/civl/) - A framework that includes the CIVL-C programming language, a model checker and a symbolic execution tool.
 
@@ -98,7 +99,6 @@ Symbolic execution survey:
 
 * [Mayhem](http://dx.doi.org/10.1109/SP.2012.31).
 * [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications.
-* [DART](https://doi.org/10.1145/1064978.1065036). 
 * [BitBlaze](http://bitblaze.cs.berkeley.edu/).
 * [PathGrind](https://github.com/codelion/pathgrind) - Path-based dynamic analysis for 32-bit programs.
 * [FuzzBALL](http://bitblaze.cs.berkeley.edu/fuzzball.html) - Symbolic execution tool built on the BitBlaze Vine component.
