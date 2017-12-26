@@ -97,7 +97,7 @@ Symbolic execution survey:
 
 ### Binaries
 
-* [Mayhem](http://dx.doi.org/10.1109/SP.2012.31).
+* [Mayhem](http://dx.doi.org/10.1109/SP.2012.31) - A system for finding exploitable bugs in binary programs. Is based on hybrid (online and offline) dynamic symbolic execution. Uses [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and BAP.
 * [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications.
 * [BitBlaze](http://bitblaze.cs.berkeley.edu/).
 * [PathGrind](https://github.com/codelion/pathgrind) - Path-based dynamic analysis for 32-bit programs.
