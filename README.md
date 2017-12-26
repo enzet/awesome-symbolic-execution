@@ -69,8 +69,8 @@ Symbolic execution survey:
 ### C
 
 * [CREST](https://github.com/jburnim/crest).
-* [DART](https://doi.org/10.1145/1064978.1065036). 
-* [Otter](https://bitbucket.org/khooyp/otter/).
+* [DART](https://doi.org/10.1145/1064978.1065036) - A tool that performs *directed automated random testing* of C programs. Uses CIL and [lp_solve](http://lpsolve.sourceforge.net/).
+* [Otter](https://bitbucket.org/khooyp/otter/) - A directed symbolic execution tool that is used to reach a particular target line. Uses [STP](http://stp.github.io/).
 * [CIVL](http://vsl.cis.udel.edu/civl/) - A framework that includes the CIVL-C programming language, a model checker and a symbolic execution tool.
 
 
