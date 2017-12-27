@@ -77,8 +77,8 @@ Symbolic execution survey:
 
 ### JavaScript
 
-* [Jalangi2](https://github.com/Samsung/jalangi2).
-* [SymJS](https://doi.org/10.1145/2635868.2635913).
+* [Jalangi2](https://github.com/Samsung/jalangi2) - A framework for writing dynamic analyses for JavaScript.
+* [SymJS](https://doi.org/10.1145/2635868.2635913) - Automatic symbolic testing of JavaScript web applications. Uses [Yices](http://yices.csl.sri.com/).
 
 
 ### Python
@@ -93,14 +93,14 @@ Symbolic execution survey:
 
 ### Android
 
-* [SymDroid](http://www.cs.umd.edu/~jfoster/papers/cs-tr-5022.pdf).
+* [SymDroid](http://www.cs.umd.edu/~jfoster/papers/cs-tr-5022.pdf) - Symbolic execution for Dalvik bytecode. Uses [Z3](https://github.com/Z3Prover/z3).
 
 
 ### Binaries
 
 * [Mayhem](http://dx.doi.org/10.1109/SP.2012.31) - A system for finding exploitable bugs in binary programs. Is based on hybrid (online and offline) dynamic symbolic execution. Uses [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and BAP.
 * [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications.
-* [BitBlaze](http://bitblaze.cs.berkeley.edu/).
+* [BitBlaze](http://bitblaze.cs.berkeley.edu/) - A binary analysis platform. Uses [STP](http://stp.github.io/).
 * [PathGrind](https://github.com/codelion/pathgrind) - Path-based dynamic analysis for 32-bit programs.
 * [FuzzBALL](http://bitblaze.cs.berkeley.edu/fuzzball.html) - Symbolic execution tool built on the BitBlaze Vine component.
 * [S2E](http://s2e.epfl.ch/) - Symbolic execution platform supporting x86, x86-64, or ARM software stacks.
