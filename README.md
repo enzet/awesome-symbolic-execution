@@ -56,14 +56,14 @@ Symbolic execution survey:
 
 ### LLVM
 
-* [KLEE](http://klee.github.io/) - Symbolic execution engine built on LLVM.
+* [KLEE](http://klee.github.io/) - Symbolic execution engine built on LLVM. Uses [STP](http://stp.github.io/).
 * [Cloud9](http://cloud9.epfl.ch/) - Parallel symbolic execution engine built on KLEE.
 * [Kite](http://www.cs.ubc.ca/labs/isd/Projects/Kite/) - Based on KLEE and LLVM.
 
 
 ### .NET
 
-* [PEX](http://pex4fun.com/About.aspx) - Dynamic symbolic execution tool for .NET.
+* [PEX](http://pex4fun.com/About.aspx) - Dynamic symbolic execution tool for .NET. Uses [Z3](https://github.com/Z3Prover/z3).
 
 
 ### C
@@ -88,7 +88,7 @@ Symbolic execution survey:
 
 ### Ruby
 
-* [Rubyx](https://www.cs.umd.edu/~avik/papers/ssarorwa.pdf) - Symbolic execution tool for Ruby on Rails web apps.
+* [Rubyx](https://www.cs.umd.edu/~avik/papers/ssarorwa.pdf) - Symbolic execution tool for Ruby on Rails web apps. Uses Drails and [Yices](http://yices.csl.sri.com/).
 
 
 ### Android
@@ -98,17 +98,17 @@ Symbolic execution survey:
 
 ### Binaries
 
-* [Mayhem](http://dx.doi.org/10.1109/SP.2012.31) - A system for finding exploitable bugs in binary programs. Is based on hybrid (online and offline) dynamic symbolic execution. Uses [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and BAP.
-* [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications.
+* [Mayhem](http://dx.doi.org/10.1109/SP.2012.31) - A system for finding exploitable bugs in binary programs. Is based on hybrid (online and offline) dynamic symbolic execution. Uses [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and BAP as well as [Z3](https://github.com/Z3Prover/z3). The winner of 2016 DARPA CGC.
+* [SAGE](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf) - Whitebox file fuzzing tool for X86 Windows applications. Uses [Z3](https://github.com/Z3Prover/z3).
 * [BitBlaze](http://bitblaze.cs.berkeley.edu/) - A binary analysis platform. Uses [STP](http://stp.github.io/).
 * [PathGrind](https://github.com/codelion/pathgrind) - Path-based dynamic analysis for 32-bit programs.
 * [FuzzBALL](http://bitblaze.cs.berkeley.edu/fuzzball.html) - Symbolic execution tool built on the BitBlaze Vine component.
-* [S2E](http://s2e.epfl.ch/) - Symbolic execution platform supporting x86, x86-64, or ARM software stacks.
+* [S2E](http://s2e.epfl.ch/) - Symbolic execution platform supporting x86, x86-64, or ARM software stacks. Based on QEMU, [KLEE](http://klee.github.io/), and LLVM.
 * [miasm](https://github.com/cea-sec/miasm) - Reverse engineering framework. Includes symbolic execution.
 * [pysymemu](https://github.com/feliam/pysymemu/) - Supports x86/x64 binaries.
 * [BAP](https://github.com/BinaryAnalysisPlatform/bap) - Binary Analysis Platform provides a framework for writing program analysis tools.
-* [angr](http://angr.io/) - Python framework for analyzing binaries. Includes a symbolic execution tool.
-* [Triton](https://triton.quarkslab.com/) - Dynamic binary analysis platform that includes a dynamic symbolic execution tool.
+* [angr](http://angr.io/) - Python framework for analyzing binaries. Includes a symbolic execution tool. Based on VEX, Unicorn, and [Z3](https://github.com/Z3Prover/z3).
+* [Triton](https://triton.quarkslab.com/) - Dynamic binary analysis platform that includes a dynamic symbolic execution tool based on [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and Capstone.
 
 
 ### Misc
