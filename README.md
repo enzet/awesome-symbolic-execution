@@ -109,6 +109,7 @@ Symbolic execution survey:
 * [BAP](https://github.com/BinaryAnalysisPlatform/bap) - Binary Analysis Platform provides a framework for writing program analysis tools.
 * [angr](http://angr.io/) - Python framework for analyzing binaries. Includes a symbolic execution tool. Based on VEX, Unicorn, and [Z3](https://github.com/Z3Prover/z3).
 * [Triton](https://triton.quarkslab.com/) - Dynamic binary analysis platform that includes a dynamic symbolic execution tool based on [Pin](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool) and Capstone.
+* [manticore](https://github.com/trailofbits/manticore) - symbolic execution tool for binaries (x86, x86_64 and ARMV7) and Ethereum smart contract bytecode
 
 
 ### Misc
